@@ -42,7 +42,9 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .inner {
-    padding: 0 20px 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+
     max-width: 760px;
     border-bottom: 8px solid #f0f4f4;
   }
@@ -242,8 +244,8 @@ body {
 .quick-menu {
   display: none;
   position: fixed;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
   background: #fff;
   z-index: 99;
@@ -254,7 +256,6 @@ body {
   align-items: center;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 @media screen and (max-width: 1024px) {
   .quick-menu {
     display: block;
@@ -264,8 +265,8 @@ body {
 .fix-mypage {
   display: none;
   position: fixed;
-  top: 0;
   left: 0;
+  top: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
@@ -274,8 +275,8 @@ body {
 
 .fix-mypage-main {
   position: absolute;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   width: 100%;
 }
 .fix-mypage-main .inner {
@@ -306,8 +307,8 @@ body {
   color: #666;
 }
 .fix-mypage-list li a img {
-  display: block;
   width: 48px;
+  display: block;
   margin: 0 auto;
   margin-bottom: 8px;
 }
@@ -465,10 +466,10 @@ body {
 }
 
 .mb-mypage {
-  display: none;
   position: absolute;
-  top: -5px;
   right: 10px;
+  top: -5px;
+  display: none;
 }
 .service-list {
   display: block;
@@ -539,9 +540,9 @@ body {
     width: 100%;
   }
   .search {
-    top: 140px;
     left: 50%;
     transform: translateX(-50%);
+    top: 140px;
   }
 
   .member-list {
@@ -606,8 +607,8 @@ body {
   height: auto;
 }
 .sw-promotion-control {
-  display: none;
   position: relative;
+  display: none;
   text-align: center;
 }
 .sw-promotion-pg {
@@ -790,12 +791,14 @@ body {
 .tour-img {
   position: relative;
   width: 100%;
+
+  /* 1280px 일때 높이가 245 px 이다. */
+  /* 1280px 이 100vw 라면  */
+  /* 245px 은 몇 vw 일까? */
+  /*  245 / 1280 * 100  */
   max-height: 245px;
-  /* 1280px일때 높이가 245px이다/ */
-  /* 1280px이 100vw이다/ */
-  /* 245px은 몇vw? */
-  /* 245 / 1280 * 100 */
   height: 19.14vw;
+
   overflow: hidden;
 }
 .tour-img img {
@@ -850,12 +853,13 @@ body {
   font-weight: 700;
   font-size: 20px;
 }
+
 @media screen and (max-width: 1024px) {
   .tour-info {
     padding: 10px;
   }
   .tour-cate {
-    top: -25px;
+    top: -22px;
     line-height: 22px;
     padding: 0 7px;
     border-radius: 4px;
@@ -865,7 +869,7 @@ body {
     line-height: 15px;
   }
   .tour-price {
-    font-size: 13px;
+    font-size: 15px;
   }
   .tour-price b {
     font-size: 15px;
@@ -873,15 +877,12 @@ body {
   }
 }
 @media screen and (max-width: 760px) {
-
 }
+
 /* 티켓랭킹 */
 .ticket {
   padding-top: 30px;
   padding-bottom: 90px;
-}
-.ticket .section-slide {
-  height: 540px;
 }
 .ticket .section-slide .sw-bt {
   top: 35%;
@@ -900,7 +901,8 @@ body {
 .ticket-img {
   position: relative;
   width: 100%;
-  height: 400px;
+  max-height: 400px;
+  height: 31.25vw;
   overflow: hidden;
 
   border-radius: 10px;
@@ -910,7 +912,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1.1);
 
   width: 100%;
 }
@@ -982,6 +984,50 @@ body {
   color: #ef3e43;
   border: 1px solid rgba(239, 62, 67, 0.3);
   border-radius: 3px;
+}
+@media screen and (max-width: 1280px) {
+  .ticket-img img {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .ticket .section-slide {
+    width: 120%;
+    overflow: hidden;
+  }
+  .ticket-rank {
+    left: 12px;
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .ticket-img img {
+    transform: translate(-50%, -50%) scale(1.4);
+  }
+}
+@media screen and (max-width: 760px) {
+  .ticket-info {
+    padding: 10px 5px;
+  }
+  .ticket-title {
+    font-size: 15px;
+    line-height: 18px;
+    height: 36px;
+    font-weight: 400;
+  }
+  .ticket-hall {
+    font-size: 13px;
+    line-height: 16px;
+    margin: 5px 0;
+  }
+  .ticket-date {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .ticket-sale {
+    font-size: 10px;
+    line-height: 18px;
+    padding: 0 5px;
+  }
 }
 
 /* 인터파크 라이브 */
@@ -1350,6 +1396,7 @@ body {
   vertical-align: -1px;
   margin: 0 3px;
 }
+
 .company-info li a {
   color: #666;
 }
