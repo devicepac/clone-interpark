@@ -171,23 +171,9 @@ body > section {
   height: 11px;
   background: url("../images/icon_linkArrow.svg") no-repeat center;
 }
-
-@media screen and (max-width: 1280px) {
-  body > section {
-  }
-
-  .section-top {
-  }
-  .section-top > h2 {
-  }
-  .section-top > p {
-  }
-}
 @media screen and (max-width: 1024px) {
   body > section {
     padding-bottom: 40px;
-  }
-  .section-top {
   }
   .section-top > h2 {
     font-size: 20px;
@@ -202,12 +188,6 @@ body > section {
 @media screen and (max-width: 760px) {
   body > section {
     padding-bottom: 30px;
-  }
-  .section-top {
-  }
-  .section-top > h2 {
-  }
-  .section-top > p {
   }
 }
 
@@ -235,8 +215,6 @@ body > section {
 }
 
 /* 기본레이아웃 */
-.wrap {
-}
 /* 상단 */
 .header {
   z-index: 999999;
@@ -247,9 +225,6 @@ body > section {
   padding-top: 30px;
   height: 160px;
 }
-.header-up {
-}
-
 .header-left {
   position: relative;
   /* 자식들이 모두.. absoluter 라서. */
@@ -370,8 +345,6 @@ body > section {
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
 }
 
-.mypage-list {
-}
 .mypage-list li {
   margin: 10px 0;
 }
@@ -397,9 +370,6 @@ body > section {
   right: 10px;
   top: -5px;
   display: none;
-}
-
-.header-down {
 }
 
 .service-list {
@@ -519,8 +489,6 @@ body > section {
 }
 
 /* 추천이벤트 */
-.promotion {
-}
 
 .promotion .inner {
   height: 345px;
@@ -558,8 +526,6 @@ body > section {
   }
 }
 @media screen and (max-width: 1024px) {
-  .promotion {
-  }
   .promotion .inner {
     height: 300px;
     border-bottom: 8px solid #f0f4f4;
@@ -656,10 +622,6 @@ body > section {
   padding: 20px;
 }
 
-.good-info-list {
-}
-.good-info-list li {
-}
 .good-info-list li b {
   font-size: 20px;
   line-height: 24px;
@@ -732,8 +694,6 @@ body > section {
   padding: 20px;
   background: #fff;
 }
-.tour-info-list {
-}
 .tour-info-list li {
   position: relative;
   margin-bottom: 3px;
@@ -762,8 +722,7 @@ body > section {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.tour-place {
-}
+
 .tour-price {
   color: #111;
   font-size: 16px;
@@ -837,8 +796,7 @@ body > section {
   padding: 20px 10px;
   background: #fff;
 }
-.ticket-info-list {
-}
+
 .ticket-info-list li {
   margin-bottom: 5px;
 }
@@ -934,8 +892,7 @@ body > section {
   padding: 20px;
 }
 
-.live-info-top {
-}
+
 .live-info-cate {
   display: inline-block;
   line-height: 32px;
@@ -1134,15 +1091,13 @@ body > section {
 }
 
 /* 하단 */
-.footer {
-}
+
 .footer-menu {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   padding: 20px 0;
 }
-.footer-menu .inner {
-}
+
 .footer-menu-list {
   display: flex;
   justify-content: space-between;
@@ -1248,8 +1203,7 @@ body > section {
 .company-info li:last-child {
   margin-bottom: 0px;
 }
-.company-info li span {
-}
+
 .company-info li span.f-line::after {
   display: inline-block;
   position: relative;
