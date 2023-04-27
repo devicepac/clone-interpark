@@ -78,23 +78,39 @@
     <!-- 퀵메뉴 -->
     <div class="quick-menu">
       <div class="inner">
-        <a href="#"><img src="/images/quick1.svg" alt="링크"></a>
-        <a href="#"><img src="/images/quick2.svg" alt="링크"></a>
-        <a href="#"><img src="/images/quick3.svg" alt="링크"></a>
-        <a href="#"><img src="/images/quick4.svg" alt="링크"></a>
-        <a href="#"><img src="/images/quick5.svg" alt="링크"></a>
+        <a href="#"><img src="images/quick1.svg" alt="링크" /></a>
+        <a href="#"><img src="images/quick2.svg" alt="링크" /></a>
+        <a href="#"><img src="images/quick3.svg" alt="링크" /></a>
+        <a href="#"><img src="images/quick4.svg" alt="링크" /></a>
+        <a href="#"><img src="images/quick5.svg" alt="링크" /></a>
       </div>
     </div>
-    <!-- 플라잉 마이페이지 -->
+    <!-- 플라잉 마이페이 -->
     <div class="fix-mypage">
       <div class="fix-mypage-main">
         <div class="inner">
           <h2 class="fix-mypage-title">마이페이지를 선택해주세요.</h2>
           <ul class="fix-mypage-list clearfix">
-            <li><a href="#"><img src="/images/icon_tour.png" alt="투어">투어 MY</a></li>
-            <li><a href="#"><img src="/images/icon_ticket.png" alt="티켓">티켓 MY</a></li>
-            <li><a href="#"><img src="/images/icon_shopping.png" alt="쇼핑">쇼핑 MY</a></li>
-            <li><a href="#"><img src="/images/icon_book.png" alt="도서">도서 MY</a></li>
+            <li>
+              <a href="#"
+                ><img src="images/icon_tour.png" alt="투어" />투어 MY</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon_ticket.png" alt="티켓" />티켓 MY</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon_shopping.png" alt="쇼핑" />쇼핑 MY</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="images/icon_book.png" alt="도서" />도서 MY</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -331,7 +347,7 @@
                     <div class="good-info">
                       <ul class="good-info-list">
                         <li>
-                          <b><span>14%</span> 24,900원</b>
+                          <b><span>5%</span> 11,950원</b>
                         </li>
                         <li>
                           <p>
@@ -422,15 +438,17 @@
             <!-- Shopping Swiper -->
             <script>
               new Swiper(".sw-shopping", {
-                slidesPerView: 8,
-                spaceBetween: 24,
+                slidesPerView: 5,
                 grid: {
                   rows: 2,
+                  fill: "row",
                 },
+                spaceBetween: 10,
                 breakpoints: {
                   1024: {
                     spaceBetween: 32,
                     slidesPerView: 3,
+                    // 화면당 3개씩 슬라이드 이동
                     slidesPerGroup: 3,
                     grid: {
                       rows: 1,
@@ -439,6 +457,7 @@
                   1280: {
                     spaceBetween: 26,
                     slidesPerView: 4,
+                    // 화면당 4개씩 슬라이드 이동
                     slidesPerGroup: 4,
                     grid: {
                       rows: 1,
