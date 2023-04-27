@@ -102,7 +102,7 @@ body {
 
 /* section 내용 구조 */
 
-body > section {
+.wrap > section {
   padding-top: 30px;
   padding-bottom: 90px;
 }
@@ -172,7 +172,8 @@ body > section {
   background: url("../images/icon_linkArrow.svg") no-repeat center;
 }
 @media screen and (max-width: 1024px) {
-  body > section {
+  .wrap > section {
+    padding-top: 30px;
     padding-bottom: 40px;
   }
   .section-top > h2 {
@@ -186,7 +187,7 @@ body > section {
   }
 }
 @media screen and (max-width: 760px) {
-  body > section {
+  .wrap > section {
     padding-bottom: 30px;
   }
 }
@@ -213,7 +214,75 @@ body > section {
   font-size: 0;
   margin-top: 10px;
 }
-
+/* 퀵메뉴 */
+.quick-menu {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+}
+.quick-menu .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 1024px) {
+  .quick-menu {
+    display: block;
+  }
+}
+/* 플라잉 마이페이지 */
+.fix-mypage {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999999;
+}
+.fix-mypage-main {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.fix-mypage-main .inner {
+  border-radius: 18px 18px 0 0;
+  background: #fff;
+  overflow: hidden;
+  padding: 30px 0;
+  text-align: center;
+}
+.fix-mypage-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.fix-mypage-list {
+  display: inline-block;
+}
+.fix-mypage-list li {
+  float: left;
+  margin-right: 40px;
+}
+.fix-mypage-list li:last-child {
+  margin-right: 0;
+}
+.fix-mypage-list li a {
+  font-size: 14px;
+  color: #666;
+}
+.fix-mypage-list li a img {
+  width: 48px;
+  display: block;
+  margin: 0 auto 8px;
+}
 /* 기본레이아웃 */
 /* 상단 */
 .header {
@@ -891,7 +960,6 @@ body > section {
   background: rgba(0, 0, 0, 0.4);
   padding: 20px;
 }
-
 
 .live-info-cate {
   display: inline-block;
