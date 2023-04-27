@@ -101,6 +101,12 @@ body {
 }
 
 /* section 내용 구조 */
+
+body > section {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
 .section-top {
   text-align: center;
 }
@@ -167,6 +173,9 @@ body {
 }
 
 @media screen and (max-width: 1280px) {
+  body > section {
+  }
+
   .section-top {
   }
   .section-top > h2 {
@@ -175,6 +184,9 @@ body {
   }
 }
 @media screen and (max-width: 1024px) {
+  body > section {
+    padding-bottom: 40px;
+  }
   .section-top {
   }
   .section-top > h2 {
@@ -188,6 +200,9 @@ body {
   }
 }
 @media screen and (max-width: 760px) {
+  body > section {
+    padding-bottom: 30px;
+  }
   .section-top {
   }
   .section-top > h2 {
@@ -505,8 +520,6 @@ body {
 
 /* 추천이벤트 */
 .promotion {
-  padding-top: 30px;
-  padding-bottom: 90px;
 }
 
 .promotion .inner {
@@ -539,7 +552,6 @@ body {
   display: inline-block;
 }
 
-
 @media screen and (max-width: 1280px) {
   .promotion .inner {
     height: 275px;
@@ -564,18 +576,19 @@ body {
     display: block;
   }
   /* swiper.js 에서 자동으로 css 생성 */
-  .swiper-pagination-bullet {
+  .sw-promotion-pg .swiper-pagination-bullet {
     width: 8px;
     height: 8px;
     border-radius: 50%;
     opacity: 0.2;
     background-color: #000;
   }
-  .swiper-pagination-bullet-active {
+  .sw-promotion-pg .swiper-pagination-bullet-active {
     opacity: 1;
     background-color: #000;
   }
 }
+
 @media screen and (max-width: 760px) {
   .promotion .inner {
     height: 290px;
@@ -591,19 +604,17 @@ body {
     margin-top: -20px;
     z-index: 999;
   }
-  /* swiper.js 에서 자동으로 css 생성 */
-  .swiper-pagination-bullet {
+  .sw-promotion-pg .swiper-pagination-bullet {
     width: 6px;
     height: 6px;
     border-radius: 50%;
     opacity: 0.3;
     background-color: #fff;
-    transition: width 0.5s;
   }
-  .swiper-pagination-bullet-active {
+  .sw-promotion-pg .swiper-pagination-bullet-active {
     opacity: 1;
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     background-color: #fff;
   }
 }
