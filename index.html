@@ -155,9 +155,12 @@
             <h2>오늘의 픽</h2>
             <p>인터파크에서 할인혜택을 꼭 챙기세요.</p>
           </div>
+
           <div class="promotion-slide">
             <button class="sw-bt sw-prev">이전</button>
             <button class="sw-bt sw-next">다음</button>
+
+            <!-- promotion Swiper -->
             <div class="swiper sw-promotion">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -165,6 +168,7 @@
                     ><img src="images/promotion1.jpg" alt="프로모션"
                   /></a>
                 </div>
+
                 <div class="swiper-slide">
                   <a href="#"
                     ><img src="images/promotion2.png" alt="프로모션"
@@ -193,6 +197,11 @@
                 </div>
               </div>
             </div>
+
+            <!-- pagination -->
+            <div class="sw-promotion-control">
+              <div class="pagination sw-promotion-pg"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -211,10 +220,14 @@
             nextEl: ".promotion .sw-next",
             prevEl: ".promotion .sw-prev",
           },
+          pagination: {
+            el: ".sw-promotion-pg",
+            clickable: true,
+          },
           breakpoints: {
             760: {
               slidesPerView: 2,
-            }
+            },
           },
         });
       </script>
