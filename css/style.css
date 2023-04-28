@@ -1217,7 +1217,7 @@ body {
   padding-bottom: 90px;
 }
 .books .section-slide .sw-bt {
-  top: 43%;
+  top: 41%;
 }
 .sw-books {
   height: 100%;
@@ -1306,6 +1306,7 @@ body {
   height: 100%;
 }
 .events-link {
+  position: relative;
   display: block;
   width: 100%;
   height: 100%;
@@ -1321,6 +1322,11 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
   mix-blend-mode: multiply;
+}
+@media screen and (max-width: 1024px) {
+  .event {
+    display: none;
+  }
 }
 /* 하단 */
 .footer-menu {
