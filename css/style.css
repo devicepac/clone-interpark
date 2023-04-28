@@ -55,7 +55,6 @@ body {
     max-width: 100%;
   }
 }
-
 /* float 해제 */
 .clearfix::after {
   display: block;
@@ -64,7 +63,6 @@ body {
   width: 100%;
   clear: both;
 }
-
 /* swiper 버튼 */
 .sw-bt {
   width: 50px;
@@ -109,7 +107,6 @@ body {
   }
 }
 /* section 내용 구조 */
-
 .wrap > section {
   padding-top: 30px;
   padding-bottom: 90px;
@@ -150,7 +147,6 @@ body {
   background: #111 !important;
   color: #fff !important;
 }
-
 .section-slide {
   position: relative;
   margin-bottom: 20px;
@@ -216,7 +212,6 @@ body {
     padding-bottom: 30px;
   }
 }
-
 /* 플라잉 배너 */
 .fix-banner {
   position: fixed;
@@ -239,7 +234,6 @@ body {
   font-size: 0;
   margin-top: 10px;
 }
-
 /* 퀵메뉴 */
 .quick-menu {
   display: none;
@@ -272,7 +266,6 @@ body {
   background: rgba(0, 0, 0, 0.6);
   z-index: 9999999;
 }
-
 .fix-mypage-main {
   position: absolute;
   bottom: 0;
@@ -301,7 +294,6 @@ body {
 .fix-mypage-list li:last-child {
   margin-right: 0;
 }
-
 .fix-mypage-list li a {
   font-size: 14px;
   color: #666;
@@ -314,7 +306,6 @@ body {
 }
 @media screen and (max-width: 1280px) {
 }
-
 /* 기본레이아웃 */
 /* 상단 */
 .header {
@@ -335,7 +326,6 @@ body {
 
   float: left;
 }
-
 .logo {
   /* a 태그는 inline 이므로 width, height 안됨 */
   /* a 태그는 inline 이므로 maring, padding 일부 안됨 */
@@ -397,7 +387,6 @@ body {
   height: 16px;
   background: url("../images/btn_searchDelete.svg") no-repeat center;
 }
-
 .header-right {
   position: relative;
   float: right;
@@ -415,7 +404,6 @@ body {
 .member-list > li:last-child {
   margin-right: 0;
 }
-
 .member-list > li > a {
   font-size: 15px;
   color: #111;
@@ -434,7 +422,6 @@ body {
 .mypage-bt:hover .mypage {
   display: block;
 }
-
 .mypage {
   display: none;
   position: absolute;
@@ -454,7 +441,6 @@ body {
 .member-list li:last-child {
   margin-bottom: 0;
 }
-
 .mypage-list li a {
   /* 글자 줄내림 없다. */
   /* inline 은 한줄로 배치 */
@@ -464,7 +450,6 @@ body {
 .mypage-list li a b {
   font-weight: 500;
 }
-
 .mb-mypage {
   display: none;
   position: absolute;
@@ -484,7 +469,6 @@ body {
   padding-right: 0;
   margin-right: 15px;
 }
-
 .service-list li a {
   font-size: 16px;
   color: #333;
@@ -496,7 +480,6 @@ body {
   height: 30px;
   margin-right: 5px;
 }
-
 .service-menu {
   display: block;
   float: left;
@@ -524,7 +507,6 @@ body {
   height: 16px;
   background: rgba(0, 0, 0, 0.2);
 }
-
 @media screen and (max-width: 1024px) {
   .header .inner {
     padding-top: 15px;
@@ -535,7 +517,6 @@ body {
     height: 18px;
     margin-left: 15px;
   }
-
   .header-left {
     width: 100%;
   }
@@ -544,14 +525,12 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
-
   .member-list {
     display: none;
   }
   .mb-mypage {
     display: block;
   }
-
   .header-down {
     text-align: center;
   }
@@ -560,14 +539,12 @@ body {
     float: none;
     margin-top: 0px;
   }
-
   .service-list li {
     padding-right: 20px;
   }
   .service-list li:last-child {
     margin-right: 0px;
   }
-
   .service-list li a {
     font-size: 12px;
     font-weight: 400;
@@ -578,22 +555,18 @@ body {
     height: 48px;
     margin: 0 auto;
   }
-
   .service-menu {
     display: none;
   }
 }
-
 /* 추천이벤트 */
 .promotion .inner {
   height: 345px;
 }
-
 .promotion .section-top {
   display: none;
   margin-bottom: 20px;
 }
-
 .promotion-slide {
   height: 100%;
 }
@@ -648,7 +621,6 @@ body {
     background-color: #000;
   }
 }
-
 @media screen and (max-width: 760px) {
   .promotion .inner {
     height: 290px;
@@ -659,7 +631,6 @@ body {
     width: 50%;
     min-width: 350px;
   }
-
   .sw-promotion-control {
     margin-top: -20px;
     z-index: 999;
@@ -678,12 +649,10 @@ body {
     background-color: #fff;
   }
 }
-
 /* 쇼핑추천 */
 .sw-shopping {
   height: 100%;
 }
-
 .good {
   display: block;
   width: 100%;
@@ -724,7 +693,6 @@ body {
   line-height: 18px;
   color: #111;
   margin-top: 10px;
-
   /* 내용이 1줄일 수도 있고 최대 2줄이다 */
   /* 높이값을 지정해서 레이아웃을 지킨다. */
   /* 내용이 넘치는 경우 ... 처리 */
@@ -739,7 +707,6 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
 @media screen and (max-width: 1280px) {
 }
 @media screen and (max-width: 1024px) {
@@ -771,7 +738,6 @@ body {
     height: 32px;
   }
 }
-
 /* 투어특가 */
 .tour {
   padding-top: 30px;
@@ -791,14 +757,12 @@ body {
 .tour-img {
   position: relative;
   width: 100%;
-
   /* 1280px 일때 높이가 245 px 이다. */
   /* 1280px 이 100vw 라면  */
   /* 245px 은 몇 vw 일까? */
   /*  245 / 1280 * 100  */
   max-height: 245px;
   height: 19.14vw;
-
   overflow: hidden;
 }
 .tour-img img {
@@ -808,7 +772,6 @@ body {
   left: 50%;
   /* 좌표, 영역말고 내용 즉, 보이는 부분만 이동 */
   transform: translate(-50%, -50%) scale(1.3);
-
   width: 100%;
 }
 
@@ -878,7 +841,6 @@ body {
 }
 @media screen and (max-width: 760px) {
 }
-
 /* 티켓랭킹 */
 .ticket {
   padding-top: 30px;
@@ -887,24 +849,20 @@ body {
 .ticket .section-slide .sw-bt {
   top: 35%;
 }
-
 .sw-ticket {
   height: 100%;
 }
-
 .ticket-link {
   display: block;
   width: 100%;
   height: 100%;
 }
-
 .ticket-img {
   position: relative;
   width: 100%;
   max-height: 400px;
   height: 31.25vw;
   overflow: hidden;
-
   border-radius: 10px;
 }
 
@@ -913,7 +871,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1.1);
-
   width: 100%;
 }
 .ticket-rank {
@@ -935,7 +892,6 @@ body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)),
     linear-gradient(180deg, transparent 68.5%, rgba(0, 0, 0, 0.6));
 }
-
 .ticket-info {
   padding: 20px 10px;
   background: #fff;
@@ -959,7 +915,6 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
 .ticket-hall {
   display: block;
   font-size: 15px;
@@ -1032,13 +987,11 @@ body {
     padding: 0 5px;
   }
 }
-
 /* 인터파크 라이브 */
 .live {
   padding-top: 30px;
   padding-bottom: 90px;
 }
-
 .live .section-top {
   margin-bottom: 25px;
 }
@@ -1056,7 +1009,6 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-
 .live-img {
   position: relative;
   width: 100%;
@@ -1068,8 +1020,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-
+  transform: translate(-50%, -50%) scale(1.2);
   height: 100%;
 }
 .live-info {
@@ -1091,7 +1042,6 @@ body {
   padding: 0 12px;
   margin-bottom: 10px;
 }
-
 .live-info-title {
   display: -webkit-box;
   font-size: 20px;
@@ -1102,17 +1052,14 @@ body {
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-
   font-weight: 700;
   color: #fff;
 }
-
 .live-info-main {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   width: 100%;
   text-align: center;
 }
@@ -1122,14 +1069,12 @@ body {
   line-height: 33px;
   margin-bottom: 5px;
 }
-
 .live-info-time {
   color: #fff;
   font-size: 50px;
   line-height: 60px;
   font-weight: 700;
 }
-
 .live-info-bottom {
   position: absolute;
   bottom: 20px;
@@ -1137,7 +1082,6 @@ body {
   width: 100%;
   padding: 0 20px;
 }
-
 .live-info-thumb {
   position: relative;
   float: left;
@@ -1174,7 +1118,6 @@ body {
   color: #fff;
   margin-top: 5px;
 }
-
 .live-info-desc-price em {
   color: #ef3e43;
   font-size: 20px;
@@ -1182,7 +1125,6 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-
 .live-info-desc-price b {
   color: #fff;
   font-size: 20px;
@@ -1230,7 +1172,7 @@ body {
   }
   .live-info-desc-price {
     font-size: 13px;
-    word-spacing: nowrap;
+    white-space: nowrap;
     margin-top: -5px;
   }
   .live-info-desc-price em {
@@ -1244,20 +1186,15 @@ body {
   .live .section-slide {
     height: 230px;
   }
-  .live-info-cate {
-    font-size: 10px;
-    line-height: 20px;
-    border-radius: 10px;
-    padding: 0 7px;
-  }
+
   .live-info-title {
     font-size: 14px;
     line-height: 17px;
     height: 34px;
   }
   .live-info-date {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 13px;
+    line-height: 16px;
   }
   .live-info-time {
     font-size: 24px;
@@ -1270,27 +1207,15 @@ body {
     float: right;
     width: 100%;
   }
+  /* 화면이 좁을 때 이미지 숨김 */
   .live-info-thumb {
     display: none;
   }
-  .live-info-desc-title {
-    font-size: 13px;
-    margin-top: 5px;
-  }
-  .live-info-desc-price {
-    font-size: 13px;
-    word-spacing: nowrap;
-    margin-top: -5px;
-  }
 }
-
 /* 오늘의 도서 */
 .books {
   padding-top: 30px;
   padding-bottom: 90px;
-}
-.books .section-slide {
-  height: 400px;
 }
 .sw-books {
   height: 100%;
@@ -1315,7 +1240,6 @@ body {
   transform: translate(-50%, -50%);
   width: 100%;
 }
-
 .books-info {
   text-align: center;
 }
@@ -1328,7 +1252,6 @@ body {
   white-space: nowrap;
   margin: 8px 0;
 }
-
 .books-info-price {
   font-size: 16px;
 }
@@ -1337,7 +1260,32 @@ body {
   font-weight: 700;
   font-style: normal;
 }
-
+@media screen and (max-width: 1280px) {
+  .books-img {
+    height: 457px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .books-img {
+    height: 322px;
+  }
+  .books-info-title {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 4px 0;
+  }
+  .books-info-price {
+    font-size: 14px;
+  }
+  .books-info-price em {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .books-img {
+    height: 41.66vw;
+  }
+}
 /* 이벤트 */
 .event {
   padding-top: 30px;
@@ -1346,11 +1294,9 @@ body {
 .event .section-top {
   margin-bottom: 20px;
 }
-
 .event .section-slide {
   height: 350px;
 }
-
 .sw-events {
   height: 100%;
 }
@@ -1371,7 +1317,6 @@ body {
   width: 100%;
   mix-blend-mode: multiply;
 }
-
 /* 하단 */
 .footer-menu {
   border-top: 1px solid #e5e5e5;
@@ -1397,7 +1342,6 @@ body {
 .footer-menu-list > li:last-child::after {
   content: none;
 }
-
 .footer-menu-list > li > a {
   font-size: 13px;
   line-height: 16px;
@@ -1417,11 +1361,9 @@ body {
   margin-left: 4px;
   vertical-align: 2px;
 }
-
 .footer-menu-list > li:hover .more-list {
   display: block;
 }
-
 .more-list {
   display: none;
   position: absolute;
@@ -1438,13 +1380,11 @@ body {
 .more-list li:last-child {
   margin-bottom: 0;
 }
-
 .more-list li a {
   white-space: nowrap;
   font-size: 13px;
   color: #333;
 }
-
 .footer-main {
   padding-top: 30px;
   padding-bottom: 55px;
@@ -1455,13 +1395,11 @@ body {
   padding-right: 30px;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 .footer-main-right {
   float: right;
   width: 50%;
   padding-left: 30px;
 }
-
 .company-name {
   float: left;
   font-size: 15px;
@@ -1469,7 +1407,6 @@ body {
   color: #111;
   margin-right: 10px;
 }
-
 .company-info {
   float: left;
   width: 80%;
@@ -1493,7 +1430,6 @@ body {
   vertical-align: -1px;
   margin: 0 3px;
 }
-
 .company-info li a {
   color: #666;
 }
