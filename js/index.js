@@ -1,16 +1,22 @@
+// html, css, js, image, font, video...
+// 사용되는 리소스가 모두 로드가 완료되고 나서 형
+// js 를 실행하여야 정상적인 처리가 가능하다.
+
 window.onload = function () {
   // 위로 이동하기
-  // .gotolp을 js에 저장하자
+  // .gotop 을 js에 저장하자.
   const goTop = document.querySelector(".gotop");
-  goTop.addEventListener("click", function(){
-    //위로 슬라이드 이동 코드
+  // goTop 클릭을 처리한다.
+  goTop.addEventListener("click", function () {
+    // 위로 슬라이등 코드
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
-  })
+  });
+
   // <!-- Initialize Swiper -->
-  let promotionswiper = new Swiper(".sw-promotion", {
+  let promotionSwiper = new Swiper(".sw-promotion", {
     slidesPerView: 1,
     spaceBetween: 24,
     speed: 1000,
@@ -36,13 +42,17 @@ window.onload = function () {
 
   // <!-- Shopping Swiper -->
 
-  let shopping = new Swiper(".sw-shopping", {
+  let shoppingSwiper = new Swiper(".sw-shopping", {
     slidesPerView: 5,
     grid: {
       rows: 2,
       fill: "row",
     },
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".shopping .sw-next",
+      prevEl: ".shopping .sw-prev",
+    },
     breakpoints: {
       1024: {
         spaceBetween: 32,
@@ -65,13 +75,17 @@ window.onload = function () {
     },
   });
 
-  let tourswiper = new Swiper(".sw-tour", {
+  let tourSwiper = new Swiper(".sw-tour", {
     slidesPerView: 3,
     grid: {
       rows: 2,
       fill: "row",
     },
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".tour .sw-next",
+      prevEl: ".tour .sw-prev",
+    },
     breakpoints: {
       1024: {
         spaceBetween: 32,
@@ -94,9 +108,13 @@ window.onload = function () {
     },
   });
 
-  let ticketswiper = new Swiper(".sw-ticket", {
+  let ticketSwiper = new Swiper(".sw-ticket", {
     slidesPerView: "auto",
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".ticket .sw-next",
+      prevEl: ".ticket .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -109,9 +127,13 @@ window.onload = function () {
     },
   });
 
-  let liveswiper = new Swiper(".sw-live", {
+  let liveSwiper = new Swiper(".sw-live", {
     slidesPerView: 4,
     spaceBetween: 10,
+    navigation: {
+      nextEl: ".live .sw-next",
+      prevEl: ".live .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -123,14 +145,17 @@ window.onload = function () {
       },
     },
   });
-
-  let booksswiper = new Swiper(".sw-books", {
+  let booksSwiper = new Swiper(".sw-books", {
     slidesPerView: 3,
     grid: {
       rows: 4,
       fill: "row",
     },
     spaceBetween: 19,
+    navigation: {
+      nextEl: ".books .sw-next",
+      prevEl: ".books .sw-prev",
+    },
     breakpoints: {
       1024: {
         slidesPerView: 3,
@@ -151,9 +176,13 @@ window.onload = function () {
     },
   });
 
-  let eventsswiper = new Swiper(".sw-events", {
+  let eventsSwiper = new Swiper(".sw-events", {
     slidesPerView: 3,
     spaceBetween: 27,
+    navigation: {
+      nextEl: ".event .sw-next",
+      prevEl: ".event .sw-prev",
+    },
     breakpoints: {
       1280: {
         slidesPerView: 4,
