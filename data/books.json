@@ -1,0 +1,185 @@
+{
+    "books": [
+        {
+            "catename": "MD's Pick",
+            "list":[
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book2.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book3.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book3.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                }
+            ]
+        },
+        {
+            "catename": "베스트셀러",
+            "list":[
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book2.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book5.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book4.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book2.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                }
+            ]
+        },
+        {
+            "catename": "신간추천",
+            "list":[
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                }
+            ]
+        },
+        {
+            "catename": "특가할인",
+            "list":[
+                {
+                    "link": "#",
+                    "pic": "book1.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book3.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book3.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book4.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book2.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                },
+                {
+                    "link": "#",
+                    "pic": "book3.jpg",
+                    "alt": "book",
+                    "title": "대한민국 청약지도",
+                    "price": "18,000"
+                }
+            ]
+        }
+    ]
+}
